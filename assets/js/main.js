@@ -76,6 +76,8 @@ const sr = ScrollReveal({
     delay: 300,
     // reset: true, // Animations repeat
 })
+
+
   
 sr.reveal(`.home__data, .about__img, .about__data, .visit__data`)
 
@@ -89,3 +91,21 @@ sr.reveal(`.new__card:nth-child(3) img`, { rotate: {z: -30}, distance: 0, delay:
 
 sr.reveal(`.footer__container`, { scale: 1 })
 sr.reveal(`.favorite__card img`, { interval: 100, rotate: {z: 15}, distance: 0 })
+
+/*=============== CALENDAR MODAL ===============*/
+function openScheduleModal() {
+    document.getElementById("scheduleModal").style.display = "block";
+  }
+  
+  function closeScheduleModal() {
+    document.getElementById("scheduleModal").style.display = "none";
+  }
+  
+  // Cierra el modal si se hace clic fuera
+  window.addEventListener("click", function (event) {
+    const modal = document.getElementById("scheduleModal");
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+  
