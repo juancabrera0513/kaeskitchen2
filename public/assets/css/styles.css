@@ -1062,3 +1062,7 @@ button:focus-visible {
   }
 }
  
+body {
+  background: url("/assets/img/home-bg.webp") no-repeat center center fixed;
+  background-size: cover;
+}
