@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Bloqueos típicos (ajusta si no existen estas rutas)
+Disallow: /admin/
+Disallow: /tmp/
+
+Sitemap: https://kaeskitchen.com/sitemap.xml
