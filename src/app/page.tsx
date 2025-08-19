@@ -24,7 +24,7 @@ export default function HomePage() {
 
           <div className="home__container container grid">
             <div className="home__data">
-              <h1 className="home__title">Where Every Sweet is Made Just for You!</h1>
+              <h1 className="home__title">Where Every Sweet is Made Just for You! </h1>
               <p className="home__subtitle">Small-batch • Premium ingredients • 5★ local reviews</p>
               <div className="home__cta">
                 <Link href="/order" className="button">Order Online</Link>
